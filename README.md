@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+How to use Angular 8 on a Rails 6 app?
 
-Things you may want to cover:
+This project is for study purposes!
 
-* Ruby version
+How this project was created:
 
-* System dependencies
+* `rails new angular-on-rails -d postgresql`
 
-* Configuration
+* `rails webpacker:install:angular`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

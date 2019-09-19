@@ -17,6 +17,9 @@
 default: &default
   adapter: postgresql
   encoding: unicode
+  host: localhost
+  username: angular_on_rails
+  password: angular_on_rails
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>

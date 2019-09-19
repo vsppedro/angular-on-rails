@@ -2,11 +2,21 @@
   "name": "angular_on_rails",
   "private": true,
   "dependencies": {
+    "@angular/common": "^8.2.7",
+    "@angular/compiler": "^8.2.7",
+    "@angular/core": "^8.2.7",
+    "@angular/platform-browser": "^8.2.7",
+    "@angular/platform-browser-dynamic": "^8.2.7",
     "@rails/actioncable": "^6.0.0-alpha",
     "@rails/activestorage": "^6.0.0-alpha",
     "@rails/ujs": "^6.0.0-alpha",
     "@rails/webpacker": "^4.0.7",
-    "turbolinks": "^5.2.0"
+    "core-js": "^3.2.1",
+    "rxjs": "^6.5.3",
+    "ts-loader": "^6.1.0",
+    "turbolinks": "^5.2.0",
+    "typescript": "^3.6.3",
+    "zone.js": "^0.10.2"
   },
   "version": "0.1.0",
   "devDependencies": {
