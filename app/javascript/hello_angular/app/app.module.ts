@@ -13,6 +13,9 @@ import { HelloComponent } from './hello-component/hello-component.component'
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent,
+    HelloComponent
+  ]
 })
 export class AppModule { }

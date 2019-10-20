@@ -148,7 +148,10 @@ import { HelloComponent } from './hello-component/hello-component.component'
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent,
+    HelloComponent
+  ]
 })
 export class AppModule { }
 
@@ -161,5 +164,3 @@ export class AppModule { }
 <hello-component></hello-component>
 <%= javascript_pack_tag "hello_angular" %>
 ```
-
-- Go to the view in the browser... does not work. What am I missing?
